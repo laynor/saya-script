@@ -11,3 +11,5 @@ pom.xml.asc
 /node_modules
 /releases
 /*.log
+/app/css/app.css
+/app/js/

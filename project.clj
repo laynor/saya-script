@@ -16,6 +16,7 @@
                    [lein-externs "0.1.6"]
                    [lein-figwheel ~figwheel-version]
                    [lein-npm "0.6.2"]
+                   [lein-less "1.7.5"]
                    [lein-shell "0.5.0"]]
 
   :npm            {:devDependencies [[electron-prebuilt ~electron-version]
@@ -25,6 +26,8 @@
 
   :source-paths   ["src"]
   :resource-paths ["app"]
+  :less           {:source-paths ["app/less"]
+                   :target-path  "app/css"}
 
   :clean-targets  ^{:protect false} [:target-path
                                      "releases"
