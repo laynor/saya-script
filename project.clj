@@ -10,7 +10,7 @@
   :dependencies   [[figwheel ~figwheel-version]
                    [org.clojure/clojure "1.8.0"]
                    [org.clojure/clojurescript "1.9.293"]
-                   [reagent "0.6.0"]]
+                   [rum "0.10.8"]]
 
   :plugins        [[lein-cljsbuild "1.1.4"]
                    [lein-externs "0.1.6"]
